@@ -1,3 +1,5 @@
+import "@/app/globals.css";
+
 export const metadata = {
   title: "Shop Landing Page 1",
   description:
