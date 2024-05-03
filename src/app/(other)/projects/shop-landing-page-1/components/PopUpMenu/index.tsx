@@ -31,7 +31,7 @@ export default function PopUpMenu() {
         <BurgerIcon />
       </button>
       {isOpen && (
-        <div className="bg-black text-white absolute right-0 p-4 flex flex-col gap-4 rounded-md">
+        <div className="bg-black text-white absolute right-0 p-4 flex flex-col gap-4 rounded-md z-50">
           <ul className="flex flex-col gap-2">
             {mainItems.map((item) => (
               <li key={item.label}>
