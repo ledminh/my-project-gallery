@@ -4,7 +4,12 @@ import { useEffect, useState } from "react";
 import { topMessageConfig } from "../../config";
 
 export default function Timer() {
-  const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
+  const [timeLeft, setTimeLeft] = useState({
+    days: 0,
+    hours: 0,
+    minutes: 0,
+    seconds: 0,
+  });
 
   useEffect(() => {
     const timer = setInterval(() => {

@@ -1,7 +1,3 @@
 export default function Logo() {
-  return (
-    <div className="bg-slate-600 text-white text-center p-2">
-      <p>Free shipping on all orders over $50</p>
-    </div>
-  );
+  return <div className="text-2xl font-bold text-black">abShop</div>;
 }
