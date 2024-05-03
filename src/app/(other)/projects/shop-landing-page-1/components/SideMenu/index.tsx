@@ -1,11 +1,19 @@
+import { sideMenuConfig } from "../../config";
+import Link from "next/link";
+
 export default function SideMenu() {
+  const { items } = sideMenuConfig;
+
   return (
-    <nav className="bg-slate-600 text-white text-center p-2">
-      <ul>
-        <li>Home</li>
-        <li>Shop</li>
-        <li>Blog</li>
-        <li>Contact</li>
+    <nav>
+      <ul className="flex gap-3">
+        {items.map((item) => (
+          <li key={item.id}>
+            <Link href={item.url} className="h-6 w-6 block">
+              <item.icon />
+            </Link>
+          </li>
+        ))}
       </ul>
     </nav>
   );

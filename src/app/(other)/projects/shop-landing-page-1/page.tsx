@@ -2,6 +2,7 @@ import TopMessage from "./components/TopMessage";
 import Logo from "./components/Logo";
 import MainMenu from "./components/MainMenu";
 import SideMenu from "./components/SideMenu";
+import PopUpMenu from "./components/PopUpMenu";
 import Hero from "./components/Hero";
 import Categories from "./components/Categories";
 import Tabs from "./components/Tabs";
@@ -16,10 +17,17 @@ export default function ShopLandingPage1() {
   return (
     <>
       <TopMessage />
-      <header>
+      <header className="flex justify-between items-center px-2 gap-4">
         <Logo />
-        <MainMenu />
-        <SideMenu />
+        <div className="hidden md:block">
+          <MainMenu />
+        </div>
+        <div className="hidden md:block">
+          <SideMenu />
+        </div>
+        <div className="flex justify-center items-center md:hidden">
+          <PopUpMenu />
+        </div>
       </header>
       <main>
         <Hero />

@@ -1,3 +1,10 @@
+import {
+  HeartIcon,
+  LoginIcon,
+  SearchIcon,
+  ShoppingCartIcon,
+} from "./assets/icons";
+
 export const topMessageConfig = {
   display: true,
   message: "Get 25% off this summer sale. Grab it fast!!!",
@@ -14,5 +21,30 @@ export const mainMenuConfig = {
     { label: "Kid", url: "/kid" },
     { label: "Shop", url: "/shop" },
     { label: "Blog", url: "/blog" },
+  ],
+};
+
+export const sideMenuConfig = {
+  items: [
+    {
+      id: "search",
+      url: "/search",
+      icon: SearchIcon,
+    },
+    {
+      id: "cart",
+      url: "/cart",
+      icon: ShoppingCartIcon,
+    },
+    {
+      id: "favorite",
+      url: "/favorite",
+      icon: HeartIcon,
+    },
+    {
+      id: "login",
+      url: "/login",
+      icon: LoginIcon,
+    },
   ],
 };

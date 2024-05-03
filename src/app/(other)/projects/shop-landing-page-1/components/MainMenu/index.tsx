@@ -5,7 +5,7 @@ export default function MainMenu() {
   const { items } = mainMenuConfig;
 
   return (
-    <nav className="font-semibold mb-4">
+    <nav className="font-semibold">
       <ul className="flex gap-4">
         {items.map((item, index) => (
           <li key={index}>
