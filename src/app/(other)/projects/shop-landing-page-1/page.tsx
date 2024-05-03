@@ -17,7 +17,7 @@ export default function ShopLandingPage1() {
   return (
     <>
       <TopMessage />
-      <header className="flex justify-between items-center px-2 gap-4">
+      <header className="flex justify-between items-center p-2 gap-4">
         <Logo />
         <div className="hidden md:block">
           <MainMenu />
