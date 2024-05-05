@@ -29,7 +29,7 @@ export default function ShopLandingPage1() {
           <PopUpMenu />
         </div>
       </header>
-      <main className="flex flex-col gap-8">
+      <main className="flex flex-col gap-12">
         <Hero />
         <Categories />
         <Tabs />
