@@ -15,7 +15,7 @@ import Copyright from "./components/Copyright";
 
 export default function ShopLandingPage1() {
   return (
-    <>
+    <div className="max-w-[1680px] mx-auto shadow-lg shadow-black">
       <TopMessage />
       <header className="flex justify-between items-center p-2 gap-4">
         <Logo />
@@ -42,7 +42,7 @@ export default function ShopLandingPage1() {
         <Footer />
         <Copyright />
       </footer>
-    </>
+    </div>
   );
 }
 
