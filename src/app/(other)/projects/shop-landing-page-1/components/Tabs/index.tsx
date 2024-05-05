@@ -5,6 +5,7 @@ import Link from "next/link";
 import data from "./data";
 
 import { useState } from "react";
+import { RightArrowHeadIcon } from "../../assets/icons";
 
 export default function Tabs() {
   const [activeTab, setActiveTab] = useState(data[0].id);
@@ -60,6 +61,17 @@ export default function Tabs() {
           </li>
         ))}
       </ul>
+      <div className="flex justify-center items-center">
+        <Link
+          href="/shop"
+          className="border border-black w-32 text-center p-2 hover:bg-gray-300 font-semibold flex justify-center items-center gap-2 rounded-lg shadow-lg"
+        >
+          <span>Load more</span>
+          <div className="w-6 h-6">
+            <RightArrowHeadIcon />
+          </div>
+        </Link>
+      </div>
     </section>
   );
 }
