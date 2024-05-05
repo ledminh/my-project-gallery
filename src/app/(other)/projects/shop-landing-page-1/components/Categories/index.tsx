@@ -4,7 +4,11 @@ import Image from "next/image";
 import Link from "next/link";
 
 import { useState, useRef, useEffect } from "react";
-import { LeftArrowHeadIcon, RightArrowHeadIcon } from "../../assets/icons";
+import {
+  DiagonalArrowIcon,
+  LeftArrowHeadIcon,
+  RightArrowHeadIcon,
+} from "../../assets/icons";
 
 import categories from "./data";
 
@@ -98,15 +102,20 @@ export default function Categories() {
           <li key={category.id}>
             <Link
               href={"/" + category.slug}
-              className="flex flex-col gap-2 w-60"
+              className="flex flex-col gap-2 w-60 group"
             >
-              <Image
-                src={category.image}
-                alt={category.name}
-                width={800}
-                height={800}
-                className="object-cover h-80 rounded-lg shadow-lg"
-              />
+              <div className="relative">
+                <div className="absolute inset-0 bg-black bg-opacity-0 rounded-lg shadow-lg group-hover:bg-opacity-30">
+                  <DiagonalArrowIcon className="absolute bottom-[10px] right-[10px] w-12 h-12 text-white opacity-0 group-hover:opacity-100" />
+                </div>
+                <Image
+                  src={category.image}
+                  alt={category.name}
+                  width={800}
+                  height={800}
+                  className="object-cover h-80 rounded-lg shadow-lg"
+                />
+              </div>
               <div className="flex flex-col px-2">
                 <span className="font-bold">{category.name}</span>
                 <span className="text-gray-500 font-semibold">
