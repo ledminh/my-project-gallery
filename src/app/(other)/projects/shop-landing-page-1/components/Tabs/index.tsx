@@ -11,15 +11,15 @@ export default function Tabs() {
 
   return (
     <section className="p-2 flex flex-col gap-8">
-      <ul className="flex justify-center items-center gap-6">
+      <ul className="flex flex-wrap justify-center items-center gap-6">
         {data.map((tab) => (
           <li key={tab.id}>
             <button onClick={() => setActiveTab(tab.id)}>
               <h3
                 className={`font-bold ${
                   activeTab === tab.id
-                    ? "md:text-3xl text-2xl"
-                    : "md:text-2xl text-xl text-gray-500"
+                    ? "lg:text-3xl text-2xl"
+                    : "lg:text-2xl text-xl text-gray-500"
                 }`}
               >
                 {tab.name}
