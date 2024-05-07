@@ -3,6 +3,8 @@ import Link from "next/link";
 import data from "./data";
 import Image from "next/image";
 
+import webAppScreenshot from "./assets/images/webapp-screenshot.jpg";
+
 export default function Home() {
   return (
     <>
@@ -20,7 +22,7 @@ export default function Home() {
                 className="shadow-md shadow-black rounded-md p-2 flex flex-col gap-2 justify-center items-center bg-slate-200 "
               >
                 <Image
-                  src={project.image}
+                  src={project.image ?? webAppScreenshot}
                   alt={project.title}
                   width={400}
                   height={250}
