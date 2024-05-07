@@ -1,7 +1,15 @@
+import Info from "./Info";
+import Menu from "./Menu";
+import ContactUs from "./ContactUs";
+import DownloadApp from "./DownloadApp";
+
 export default function Footer() {
   return (
-    <div className="bg-slate-600 text-white text-center p-2">
-      <p>Free shipping on all orders over $50</p>
-    </div>
+    <section>
+      <Info />
+      <Menu />
+      <ContactUs />
+      <DownloadApp />
+    </section>
   );
 }

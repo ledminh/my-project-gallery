@@ -10,7 +10,7 @@ export const topMessageConfig = {
   message: "Get 25% off this summer sale. Grab it fast!!!",
   timer: {
     display: true,
-    endDate: "2024-05-06",
+    endDate: "2029-05-06",
   },
 };
 
