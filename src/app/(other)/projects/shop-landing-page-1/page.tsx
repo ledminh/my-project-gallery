@@ -38,7 +38,7 @@ export default function ShopLandingPage1() {
         <Testimonials />
         <ShopAddresses />
       </main>
-      <footer className="mt-12 bg-gray-200 p-2">
+      <footer>
         <Footer />
         <Copyright />
       </footer>
