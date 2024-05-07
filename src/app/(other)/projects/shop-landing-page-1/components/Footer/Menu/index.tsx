@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Menu() {
   return (
     <div className="flex flex-col gap-4">
-      <h3 className="text-xl font-bold">Menu</h3>
+      <h3 className="text-xl">Menu</h3>
       <ul className="flex flex-col gap-2">
         {data.map((item) => (
           <li key={item.id}>
