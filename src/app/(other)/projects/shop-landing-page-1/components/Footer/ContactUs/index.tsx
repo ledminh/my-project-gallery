@@ -5,7 +5,7 @@ export default function ContactUs() {
   return (
     <div className="flex flex-col gap-4">
       <h3 className="text-xl">Contact us</h3>
-      <ul className="flex flex-col gap-6">
+      <ul className="flex flex-col gap-6 justify-center items-center sm:justify-start sm:items-start">
         {data.map((item) => (
           <li key={item.id} className="text-gray-600 flex  gap-2">
             <div className="w-6 h-6">

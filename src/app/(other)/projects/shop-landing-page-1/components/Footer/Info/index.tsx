@@ -12,14 +12,14 @@ export default function Info() {
         href={linkMap}
         target="_blank"
         rel="noreferrer"
-        className="flex gap-1 text-gray-600"
+        className="flex gap-1 text-gray-600 justify-center items-center sm:justify-start sm:items-start"
       >
         <div className="w-[20px] pt-1">
           <LocationPinIcon />
         </div>
         <p>{address}</p>
       </Link>
-      <ul className="flex gap-1">
+      <ul className="flex gap-1 justify-center items-center sm:justify-start sm:items-start">
         {socials.map((social) => (
           <li key={social.id}>
             <Link

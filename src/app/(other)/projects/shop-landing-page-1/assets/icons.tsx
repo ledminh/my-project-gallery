@@ -232,3 +232,87 @@ export function PaperAirplaneIcon() {
     </svg>
   );
 }
+
+export function AppleLogoIcon() {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="currentColor"
+      version="1.1"
+      viewBox="0 0 52.226 52.226"
+      xmlSpace="preserve"
+    >
+      <path d="M36.802 1.055L36.747 0l-1.05.113c-.103.011-10.252 1.234-10.948 12.581l-.07 1.136 1.136-.077c.116-.008 11.611-.925 10.987-12.698zm-1.981 1.267c-.191 6.838-5.511 8.74-7.953 9.253.93-6.645 5.749-8.67 7.953-9.253z"></path>
+      <path d="M46.584 37.517l-.639-.207c-3.867-1.25-6.464-4.792-6.464-8.814 0-3.578 2.023-6.778 5.281-8.352l.972-.469-.542-.933c-.232-.4-2.401-3.943-6.983-5.116-3.634-.93-7.72-.107-12.149 2.447-1.875-1.138-8.103-4.418-13.058-1.13-.97.536-11.251 6.695-5.9 23.313.157.372 3.888 9.113 8.303 12.387 1.191 1.138 4.237 2.56 7.718.187.603-.249 4.638-1.802 7.198.017.945.647 2.595 1.38 4.338 1.38 1.322 0 2.697-.421 3.859-1.621.542-.469 5.493-4.888 8.066-11.888l.075-.204-.075-.997zm-9.402 11.598l-.077.073c-2.193 2.303-5.518.1-5.641.018-1.308-.93-2.823-1.233-4.244-1.233-2.579 0-4.847.999-4.992 1.064l-.163.092c-3.019 2.107-5.086.253-5.305.042l-.118-.101c-3.993-2.912-7.663-11.507-7.668-11.51-5.008-15.568 4.586-20.66 4.994-20.867l.11-.065c4.647-3.12 11.327 1.396 11.393 1.441l.533.366.552-.333c4.16-2.515 7.914-3.37 11.157-2.539 2.642.676 4.326 2.327 5.15 3.342-3.347 2.051-5.381 5.63-5.381 9.591 0 4.556 2.735 8.604 6.902 10.365-2.565 6.261-7.153 10.213-7.202 10.254z"></path>
+    </svg>
+  );
+}
+
+export function GooglePlayLogoIcon() {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -0.5 408 467.8">
+      <linearGradient
+        id="a"
+        x2="261.746"
+        y1="112.094"
+        y2="112.094"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop offset="0" stopColor="#63be6b"></stop>
+        <stop offset="0.506" stopColor="#5bbc6a"></stop>
+        <stop offset="1" stopColor="#4ab96a"></stop>
+      </linearGradient>
+      <linearGradient
+        id="b"
+        x1="0.152"
+        x2="179.896"
+        y1="223.393"
+        y2="223.393"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop offset="0" stopColor="#3ec6f2"></stop>
+        <stop offset="1" stopColor="#45afe3"></stop>
+      </linearGradient>
+      <linearGradient
+        id="c"
+        x1="179.896"
+        x2="407.976"
+        y1="229.464"
+        y2="229.464"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop offset="0" stopColor="#faa51a"></stop>
+        <stop offset="0.387" stopColor="#fab716"></stop>
+        <stop offset="0.741" stopColor="#fac412"></stop>
+        <stop offset="1" stopColor="#fac80f"></stop>
+      </linearGradient>
+      <linearGradient
+        id="d"
+        x1="1.744"
+        x2="272.296"
+        y1="345.521"
+        y2="345.521"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop offset="0" stopColor="#ec3b50"></stop>
+        <stop offset="1" stopColor="#e7515b"></stop>
+      </linearGradient>
+      <path
+        fill="url(#a)"
+        d="M261.7 142.3L15 1.3C11.9-.5 8-.4 5 1.4c-3.1 1.8-5 5-5 8.6 0 0 .1 13 .2 34.4l179.7 179.7z"
+      ></path>
+      <path
+        fill="url(#b)"
+        d="M.2 44.4C.5 121.6 1.4 309 1.8 402.3L180 224.1z"
+      ></path>
+      <path
+        fill="url(#c)"
+        d="M402.9 223l-141.2-80.7-81.9 81.8 92.4 92.4L403 240.3c3.1-1.8 5-5.1 5-8.6 0-3.6-2-6.9-5.1-8.7z"
+      ></path>
+      <path
+        fill="url(#d)"
+        d="M1.7 402.3c.2 33.3.3 54.6.3 54.6 0 3.6 1.9 6.9 5 8.6 3.1 1.8 6.9 1.8 10 0l255.3-148.9-92.4-92.4z"
+      ></path>
+    </svg>
+  );
+}
