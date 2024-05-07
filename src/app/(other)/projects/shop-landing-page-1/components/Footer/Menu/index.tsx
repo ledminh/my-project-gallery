@@ -12,7 +12,7 @@ export default function Menu() {
               href={item.link}
               className="border-b border-b-transparent hover:border-b-black"
             >
-              {item.title}
+              <span className="text-gray-600">{item.title}</span>
             </Link>
           </li>
         ))}

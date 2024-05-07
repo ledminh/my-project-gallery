@@ -12,7 +12,7 @@ export default function Info() {
         href={linkMap}
         target="_blank"
         rel="noreferrer"
-        className="flex gap-1"
+        className="flex gap-1 text-gray-600"
       >
         <div className="w-[20px] pt-1">
           <LocationPinIcon />
