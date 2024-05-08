@@ -1,6 +1,6 @@
 import "./styles.css";
 
-// import Logo from "./components/Layout/Logo";
+import Logo from "./components/Layout/Logo";
 import NavLink from "./components/Layout/NavLink";
 
 export const metadata = {
@@ -17,7 +17,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <header>
-          {/* <Logo /> */}
+          <Logo />
           <NavLink href="/about" firstLine="ABOUT US" secondLine="WHO WE ARE" />
         </header>
         {children}

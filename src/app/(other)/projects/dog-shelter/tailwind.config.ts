@@ -13,6 +13,7 @@ const config: Config = {
         "2": "#e38040",
         "3": "#d75404",
       },
+      secondary: "#674F36",
     },
   },
   plugins: [],
