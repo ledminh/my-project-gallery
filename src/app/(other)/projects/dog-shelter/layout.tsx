@@ -16,18 +16,24 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <header>
-          <Logo />
-          <NavLink href="/about" firstLine="ABOUT US" secondLine="WHO WE ARE" />
-        </header>
-        {children}
-        <footer>
-          <NavLink
-            href="/contact"
-            firstLine="CONTACT"
-            secondLine="GET IN TOUCH"
-          />
-        </footer>
+        <div className="m-4 h-screen">
+          <header className="flex justify-between items-center">
+            <Logo />
+            <NavLink
+              href="/about"
+              firstLine="ABOUT US"
+              secondLine="WHO WE ARE"
+            />
+          </header>
+          {children}
+          <footer className="absolute bottom-4">
+            <NavLink
+              href="/contact"
+              firstLine="CONTACT"
+              secondLine="GET IN TOUCH"
+            />
+          </footer>
+        </div>
       </body>
     </html>
   );
