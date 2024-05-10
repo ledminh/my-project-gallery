@@ -1,10 +1,10 @@
-import { DogPawIcon } from "../../../assets/icons";
+import { DogFootIcon } from "../../../assets/icons";
 
 export default function Header() {
   return (
-    <header className="relative max-w-[750px] w-3/4 flex flex-col justify-center items-center min-w-[380px]">
+    <header className="relative flex flex-col justify-center items-center">
       <div className="w-full h-full text-primary-1">
-        <DogPawIcon />
+        <DogFootIcon />
       </div>
       <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center gap-4">
         <div className="flex flex-col justify-center items-center gap-2 text-center">

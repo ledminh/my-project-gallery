@@ -6,8 +6,10 @@ import CircleButtonLink from "./components/commons/CircleButtonLink";
 export default function DogShelter() {
   return (
     <>
-      <Photos />
-      <Header />
+      <div className="max-w-[750px] w-3/4 min-w-[380px] -translate-y-14">
+        <Photos />
+        <Header />
+      </div>
       <MainButtonLink />
       <div className="absolute bottom-4 right-4">
         <CircleButtonLink>FB</CircleButtonLink>
