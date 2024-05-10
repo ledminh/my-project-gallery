@@ -32,29 +32,16 @@ export function DogFootIcon() {
   );
 }
 
-export function DogPaws({
-  xTop,
-  yTop,
-  xBottom,
-  yBottom,
-}: {
-  xTop: number;
-  yTop: number;
-  xBottom: number;
-  yBottom: number;
-}) {
+export function RightArrowIcon() {
   return (
-    <svg
-      id="Capa_1"
-      xmlns="http://www.w3.org/2000/svg"
-      xmlnsXlink="http://www.w3.org/1999/xlink"
-      fill="currentColor"
-      viewBox={`${xTop} ${yTop} ${xBottom} ${yBottom}`}
-      xmlSpace="preserve"
-    >
-      <g>
-        <path d="M430.3,342c60.6,0,109.7-76.6,109.7-171S490.9,0,430.3,0S320.6,76.6,320.6,171S369.7,342,430.3,342z  M157.8,257.5c44.7-20.6,54.9-93.7,22.7-163.3S86.1-15.2,41.5,5.4s-54.8,93.7-22.7,163.3C50.9,238.4,113.1,278,157.8,257.5z  M690.3,342c60.6,0,109.7-76.6,109.7-171S750.9,0,690.3,0c-60.6,0-109.7,76.6-109.7,171S629.6,342,690.3,342z M157.8,375.7 c-44.7-20.6-106.9,19.1-139,88.7S-3.2,607.1,41.5,627.7c44.7,20.6,106.9-19.1,139-88.7S202.5,396.3,157.8,375.7z" />
-      </g>
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
+        stroke="currentColor"
+        d="M9 5l7 7-7 7"
+      ></path>
     </svg>
   );
 }

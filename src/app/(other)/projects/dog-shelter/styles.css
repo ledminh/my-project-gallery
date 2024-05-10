@@ -56,6 +56,22 @@
     background-position: 0% 100%;
     @apply bg-primary-1;
   }
+
+  .animated-paw {
+    animation: paw 2s infinite;
+  }
+
+  @keyframes paw {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.03);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
 }
 
 body {

@@ -1,23 +1,15 @@
-import Photos from "./components/Home/Photos";
-import Header from "./components/Home/Header";
-import MainButtonLink from "./components/commons/MainButtonLink";
+import MainComponent from "./components/Home/MainComponent";
+
 import CircleButtonLink from "./components/commons/CircleButtonLink";
 
 export default function DogShelter() {
   return (
     <>
-      <div className="max-w-[750px] w-3/4 min-w-[380px] -translate-y-14">
-        <Photos />
-        <Header />
-      </div>
-      <MainButtonLink />
+      <MainComponent />
       <div className="absolute bottom-4 right-4">
         <CircleButtonLink>FB</CircleButtonLink>
         <CircleButtonLink>TW</CircleButtonLink>
       </div>
-      {/* <div className="bg-primary-1 w-40 h-40 group" />
-      <div className="bg-primary-2 w-40 h-40 group-hover:bg-black" />
-      <div className="bg-primary-3 w-40 h-40" /> */}
     </>
   );
 }
