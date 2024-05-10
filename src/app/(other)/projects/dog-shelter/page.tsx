@@ -5,16 +5,18 @@ import CircleButtonLink from "./components/commons/CircleButtonLink";
 
 export default function DogShelter() {
   return (
-    <main>
+    <>
       <Photos />
       <Header />
       <MainButtonLink />
-      <CircleButtonLink>FB</CircleButtonLink>
-      <CircleButtonLink>TW</CircleButtonLink>
-      <div className="bg-primary-1 w-40 h-40 group" />
+      <div className="absolute bottom-4 right-4">
+        <CircleButtonLink>FB</CircleButtonLink>
+        <CircleButtonLink>TW</CircleButtonLink>
+      </div>
+      {/* <div className="bg-primary-1 w-40 h-40 group" />
       <div className="bg-primary-2 w-40 h-40 group-hover:bg-black" />
-      <div className="bg-primary-3 w-40 h-40" />
-    </main>
+      <div className="bg-primary-3 w-40 h-40" /> */}
+    </>
   );
 }
 

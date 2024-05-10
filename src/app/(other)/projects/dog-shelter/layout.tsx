@@ -16,17 +16,23 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <div className="m-4 h-screen">
-          <header className="flex justify-between items-center">
-            <Logo />
-            <NavLink
-              href="/about"
-              firstLine="ABOUT US"
-              secondLine="WHO WE ARE"
-            />
+        <div className="relative h-screen flex justify-center items-center">
+          <header>
+            <div className="absolute top-4 left-4">
+              <Logo />
+            </div>
+            <div className="absolute top-4 right-4">
+              <NavLink
+                href="/about"
+                firstLine="ABOUT US"
+                secondLine="WHO WE ARE"
+              />
+            </div>
           </header>
-          {children}
-          <footer className="absolute bottom-4">
+          <main className="w-full flex flex-col justify-center items-center">
+            {children}
+          </main>
+          <footer className="absolute bottom-4 left-4">
             <NavLink
               href="/contact"
               firstLine="CONTACT"
