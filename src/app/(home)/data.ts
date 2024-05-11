@@ -11,7 +11,7 @@ const data = [
   {
     id: "dog-shelter",
     title: "Dog Shelter",
-    link: "/projects/dog-shelter",
+    link: "https://dog-shelter-khaki.vercel.app/",
     description: "A landing page for a dog shelter.",
   },
 ];
