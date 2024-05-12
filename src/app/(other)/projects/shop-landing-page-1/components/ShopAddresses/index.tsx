@@ -61,6 +61,7 @@ export default function ShopAddresses() {
           width={1200}
           height={1200}
           className="object-cover w-full row-start-1 col-start-1 col-span-2 md:col-span-1"
+          placeholder="blur"
         />
       </div>
     </section>
