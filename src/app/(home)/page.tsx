@@ -10,7 +10,7 @@ export default function Home() {
     <>
       <header>
         <h1 className="bg-slate-600 text-white text-3xl font-bold p-2">
-          My Project Gallery
+          My Projects
         </h1>
       </header>
       <main>
