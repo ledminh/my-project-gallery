@@ -1,6 +1,16 @@
 import LandingPage1Img from "./assets/images/landing-page-001.png";
 import DogShelterImg from "./assets/images/dog-shelter.png";
+import portfolioLandingPage1 from "./assets/images/portfolio-landing-page-1.png";
+
 const data = [
+  {
+    id: "portfolio-landing-page-1",
+    title: "Portfolio Landing Page 1",
+    link: "https://porfolio-landing-page-1.vercel.app/",
+    description: "A simple portfolio landing page.",
+    image: portfolioLandingPage1,
+  },
+
   {
     id: "dog-shelter",
     title: "Dog Shelter",
